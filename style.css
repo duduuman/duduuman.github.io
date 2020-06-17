@@ -1,0 +1,78 @@
+*{
+    
+    font-family: 'Quicksand', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+#signIn{
+    right:0;
+}
+
+.jumbotron{
+    color:white !important;
+    background-image: url("http://postfiles2.naver.net/MjAxODA0MTJfMjU4/MDAxNTIzNTAwNTYwODU3.yOL9vF1D4M4aTZWWmOqKhAmoeMra69aEAHH5jePTZvAg.ZzflMzSx7WNAC7s_0LlG1Q2ZwVRhEcsWFhiB-wM9Vjwg.JPEG.konya92/%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98_%EB%B0%B0%EA%B2%BD.jpg?type=w773");
+    text-align: center;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    width:100%;
+    padding:15px;
+    box-sizing: border-box;
+    background: black;
+    color:white;
+}
+
+  
+nav{
+    background:black;
+    color: white;
+    height:50px;
+    width:100%;
+    padding: 15px;
+}
+ul{
+    list-style:none;
+    float:right; 
+}
+
+li{
+    float:left; 
+    margin:0px 5px;
+}
+
+
+article{
+    width:50%;
+}
+
+section{
+    width:100%;
+    padding:15px;
+}
+
+section:nth-child(1){
+    background: white;
+    height:300px;
+}
+
+section:nth-child(2){
+    background:white;
+    height:300px;
+}
+
+section input{
+    display: block; 
+    border:0px;
+    padding:20px;
+    border-radius: 3px;
+    margin-top:5px;
+}
